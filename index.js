@@ -21,8 +21,8 @@ glob("routes/**/*.js", function (er, files) {
     require(item)(app);
   })
 })
-// mongoose.connect('mongodb://localhost/playground');
+
 mongoose.connect(config.mongoURI.local);
-app.listen(3000, function(){
-  console.log('Server started on port 3000');
-})
+app.listen(config.port, function(){
+  console.log('Server started on port ' + config.port);
+});

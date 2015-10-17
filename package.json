@@ -4,7 +4,8 @@
   "description": "just playing around with js stuff, bootstrapping etc",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "source start.sh"
   },
   "author": "osman ozdemir",
   "license": "ISC",
@@ -18,5 +19,8 @@
     "lodash": "^3.10.1",
     "mongoose": "^4.1.5",
     "morgan": "^1.6.1"
+  },
+  "devDependencies": {
+    "faker": "^3.0.1"
   }
 }

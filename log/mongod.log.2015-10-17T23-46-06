@@ -1,0 +1,40 @@
+2015-10-17T19:45:06.663-0400 W -        [initandlisten] Detected unclean shutdown - /data/db/mongod.lock is not empty.
+2015-10-17T19:45:06.671-0400 I JOURNAL  [initandlisten] journal dir=/data/db/journal
+2015-10-17T19:45:06.671-0400 I JOURNAL  [initandlisten] recover begin
+2015-10-17T19:45:06.672-0400 I JOURNAL  [initandlisten] info no lsn file in journal/ directory
+2015-10-17T19:45:06.672-0400 I JOURNAL  [initandlisten] recover lsn: 0
+2015-10-17T19:45:06.672-0400 I JOURNAL  [initandlisten] recover /data/db/journal/j._0
+2015-10-17T19:45:06.672-0400 I JOURNAL  [initandlisten] recover cleaning up
+2015-10-17T19:45:06.672-0400 I JOURNAL  [initandlisten] removeJournalFiles
+2015-10-17T19:45:06.672-0400 I JOURNAL  [initandlisten] recover done
+2015-10-17T19:45:06.696-0400 I JOURNAL  [durability] Durability thread started
+2015-10-17T19:45:06.696-0400 I CONTROL  [initandlisten] MongoDB starting : pid=19891 port=27017 dbpath=/data/db 64-bit host=ROSELCDV0001NON
+2015-10-17T19:45:06.696-0400 I JOURNAL  [journal writer] Journal writer thread started
+2015-10-17T19:45:06.697-0400 I CONTROL  [initandlisten] ** WARNING: You are running this process as the root user, which is not recommended.
+2015-10-17T19:45:06.697-0400 I CONTROL  [initandlisten] 
+2015-10-17T19:45:06.697-0400 I CONTROL  [initandlisten] db version v3.0.7
+2015-10-17T19:45:06.697-0400 I CONTROL  [initandlisten] git version: nogitversion
+2015-10-17T19:45:06.697-0400 I CONTROL  [initandlisten] build info: Darwin yosemitevm.local 14.5.0 Darwin Kernel Version 14.5.0: Wed Jul 29 02:26:53 PDT 2015; root:xnu-2782.40.9~1/RELEASE_X86_64 x86_64 BOOST_LIB_VERSION=1_49
+2015-10-17T19:45:06.698-0400 I CONTROL  [initandlisten] allocator: system
+2015-10-17T19:45:06.698-0400 I CONTROL  [initandlisten] options: { processManagement: { fork: true }, systemLog: { destination: "file", path: "./log/mongod.log" } }
+2015-10-17T19:45:06.715-0400 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-10-17T19:45:07.244-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61302 #1 (1 connection now open)
+2015-10-17T19:45:07.245-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61303 #2 (2 connections now open)
+2015-10-17T19:45:07.245-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61304 #3 (3 connections now open)
+2015-10-17T19:45:07.245-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61305 #4 (4 connections now open)
+2015-10-17T19:45:07.245-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61306 #5 (5 connections now open)
+2015-10-17T19:45:53.537-0400 I NETWORK  [conn4] end connection 127.0.0.1:61305 (4 connections now open)
+2015-10-17T19:45:53.537-0400 I NETWORK  [conn5] end connection 127.0.0.1:61306 (4 connections now open)
+2015-10-17T19:45:53.537-0400 I NETWORK  [conn3] end connection 127.0.0.1:61304 (4 connections now open)
+2015-10-17T19:45:53.537-0400 I NETWORK  [conn2] end connection 127.0.0.1:61303 (4 connections now open)
+2015-10-17T19:45:53.537-0400 I NETWORK  [conn1] end connection 127.0.0.1:61302 (4 connections now open)
+2015-10-17T19:46:07.351-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61347 #6 (1 connection now open)
+2015-10-17T19:46:07.352-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61348 #7 (2 connections now open)
+2015-10-17T19:46:07.352-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61349 #8 (3 connections now open)
+2015-10-17T19:46:07.352-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61350 #9 (4 connections now open)
+2015-10-17T19:46:07.352-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61351 #10 (5 connections now open)
+2015-10-17T19:46:16.530-0400 I NETWORK  [conn10] end connection 127.0.0.1:61351 (4 connections now open)
+2015-10-17T19:46:16.531-0400 I NETWORK  [conn9] end connection 127.0.0.1:61350 (4 connections now open)
+2015-10-17T19:46:16.531-0400 I NETWORK  [conn8] end connection 127.0.0.1:61349 (4 connections now open)
+2015-10-17T19:46:16.531-0400 I NETWORK  [conn7] end connection 127.0.0.1:61348 (4 connections now open)
+2015-10-17T19:46:16.531-0400 I NETWORK  [conn6] end connection 127.0.0.1:61347 (4 connections now open)
