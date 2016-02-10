@@ -12,17 +12,15 @@ app.set('secret', config.secret);
 app.use(morgan('dev'));
 app.use(bodyParser.json());       // to support JSON-encoded bodies
 app.use(bodyParser.urlencoded({     // to support URL-encoded bodies
-  extended: true
+	extended: true
 }));
 
-glob("routes/**/*.js", function (er, files) {
-  _.each(files, function(item){
-    item = './' + item;
-    require(item)(app);
-  })
-})
+var routes = config.routes;
 
+_.each(routes, function(route){
+	require(route)(app);
+});
 mongoose.connect(config.mongoURI.local);
 app.listen(config.port, function(){
-  console.log('Server started on port ' + config.port);
+	console.log('Server started on port ' + config.port);
 });

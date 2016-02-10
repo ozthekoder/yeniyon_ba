@@ -1,8 +1,12 @@
 {
-  "port": 8888,
-  "salt": "Ozzy is a fuckin genius!!!",
-  "secret": "OzRuLeZqwoieuOzRuLeZceqwOzRuLeZ09239OzRuLeZq20q309q09OzRuLeZ4rq39rq2OzRuLeZ09r304r9h3OzRuLeZqncq23",
-  "mongoURI":{
-      "local": "mongodb://localhost/playground"
-    }
+	"port": 8888,
+	"salt": "Ozzy is a fuckin genius!!!",
+	"secret": "OzRuLeZqwoieuOzRuLeZceqwOzRuLeZ09239OzRuLeZq20q309q09OzRuLeZ4rq39rq2OzRuLeZ09r304r9h3OzRuLeZqncq23",
+	"mongoURI":{
+		"local": "mongodb://localhost/yeniyon"
+	},
+	"routes": {
+		"user": "./routes/user.route.js",
+                "article": "./routes/article.route.js"
+	}
 }

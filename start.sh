@@ -1,2 +1,2 @@
-sudo mongod --fork --logpath ./log/mongod.log
-node index.js
+sudo service mongod start;
+node_modules/.bin/nodemon index.js

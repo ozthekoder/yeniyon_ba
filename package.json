@@ -1,24 +1,26 @@
 {
-  "name": "playground",
+  "name": "yeniyon_be",
   "version": "0.0.0",
   "description": "just playing around with js stuff, bootstrapping etc",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "source start.sh"
+    "start": "./start.sh"
   },
   "author": "osman ozdemir",
   "license": "ISC",
   "dependencies": {
-    "bluebird": "^2.9.34",
-    "body-parser": "^1.13.3",
-    "express": "^4.13.3",
-    "glob": "^5.0.14",
-    "gulp": "^3.9.0",
-    "jsonwebtoken": "^5.0.5",
-    "lodash": "^3.10.1",
-    "mongoose": "^4.1.5",
-    "morgan": "^1.6.1"
+    "kerberos": "0.0.18",
+    "nodemon": "latest",
+    "bluebird": "latest",
+    "body-parser": "latest",
+    "express": "latest",
+    "glob": "latest",
+    "gulp": "latest",
+    "jsonwebtoken": "latest",
+    "lodash": "latest",
+    "mongoose": "4.4.1",
+    "morgan": "latest"
   },
   "devDependencies": {
     "faker": "^3.0.1"
